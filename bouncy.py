@@ -2,11 +2,6 @@ from cmu_graphics import *
 # is ball clicked
 pickedUp = False
 
-# resets the ball
-def onKeyPress(R):
-    global pickedUp
-    pickedUp=False
-
     ### sky
 Rect(0,0,400,400,fill='skyBlue')
     #sun and moon
